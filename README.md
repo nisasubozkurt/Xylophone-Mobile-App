@@ -1,6 +1,5 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Xylophone
+![image](https://github.com/nisasubozkurt/Xylophone-Mobile-App/assets/95681404/da353385-bf61-404d-b9f4-51672e288d9a)
 
 ## Our Goal
 
@@ -23,33 +22,6 @@ You will be making your first musical instrument! Music apps are so popular on t
 * Error handling in Swift.
 * Code refactoring.
 * Basic debugging.
-
-## Replacement Code
-
-```
-import UIKit
-import AVFoundation
-
-class ViewController: UIViewController {
-    
-    var player: AVAudioPlayer!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    @IBAction func keyPressed(_ sender: UIButton) {
-        playSound()
-    }
-    
-    func playSound() {
-        let url = Bundle.main.url(forResource: "C", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-                
-    }
-}
-```
 
 
 
