@@ -21,5 +21,5 @@ You will be making your first musical instrument! Music apps are so popular on t
 * The ViewController lifecycle.
 * Error handling in Swift.
 * Code refactoring.
-* Basic debugging.
+* Basic debugging..
 
